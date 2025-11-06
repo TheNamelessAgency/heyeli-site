@@ -75,3 +75,17 @@ h2{font-size:36px;margin:0 0 14px}
 .privacy{color:#374151;font-size:14px;margin-top:8px}
 .footer{padding:40px 24px;text-align:center;color:#6b7280}
 .links a{color:#6b7280}
+
+/* Blog */
+.blog-hero{padding:96px 20px 24px;text-align:center}
+.blog-list .post-card{
+  border:1px solid rgba(15,23,42,.08);
+  border-radius:14px;padding:20px;background:#fff;
+  transition:transform .12s ease, box-shadow .12s ease
+}
+.blog-list .post-card:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.04)}
+.post{max-width:760px;margin:0 auto;padding:96px 20px}
+.post-header h1{font-size:44px;margin-bottom:8px}
+.post .meta{color:#6b7280;margin:0 0 24px}
+.post h2{margin-top:28px}
+.post-divider{border:0;border-top:1px solid rgba(15,23,42,.08);margin:36px 0}
