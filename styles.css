@@ -92,7 +92,7 @@ h2{font-size:36px;margin:0 0 14px}
 
 /* ——— Nav logo sizing & spacing overrides ——— */
 .brand img{
-  width: 72px;      /* was 28px */
+  width: 28px;      /* was 28px */
   height: auto;     /* let it scale proportionally */
 }
 
@@ -101,10 +101,10 @@ h2{font-size:36px;margin:0 0 14px}
 
 /* responsive tweaks so it doesn’t overpower on small screens */
 @media (max-width: 900px){
-  .brand img{ width: 36px; }
+  .brand img{ width: 28px; }
   .nav nav{ gap: 12px; }
 }
 @media (max-width: 480px){
-  .brand img{ width: 32px; }
+  .brand img{ width: 28px; }
   .nav{ padding: 12px 16px; }
 }
