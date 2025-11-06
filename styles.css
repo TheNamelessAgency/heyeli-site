@@ -92,7 +92,7 @@ h2{font-size:36px;margin:0 0 14px}
 
 /* ——— Nav logo sizing & spacing overrides ——— */
 .brand img{
-  width: 40px;      /* was 28px */
+  width: 72px;      /* was 28px */
   height: auto;     /* let it scale proportionally */
 }
 
