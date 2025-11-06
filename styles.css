@@ -34,7 +34,7 @@ a{color:inherit;text-decoration:none}
              radial-gradient(50% 50% at 60% 60%, rgba(229,217,255,.35), transparent 60%);
   filter:blur(60px)
 }
-.logo{width:82px;height:82px;opacity:.95}
+.logo{width:164px;height:164px;opacity:.95}
 h1{font-weight:700;font-size:56px;letter-spacing:-.02em;margin:10px 0 4px}
 .sub{color:var(--muted);font-size:18px;max-width:680px}
 .button.primary{
