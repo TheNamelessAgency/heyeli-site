@@ -110,8 +110,30 @@ h2{font-size:36px;margin:0 0 14px}
 }
 
 .grid.five {
-  display: grid;
-  gap: 32px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  align-items: start;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  gap: 24px;
+  margin-top: 40px;
+  overflow-x: auto; /* allows horizontal scroll on small screens */
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+}
+
+.grid.five .card {
+  flex: 1 1 200px;
+  max-width: 240px;
+  min-width: 200px;
+  text-align: left;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  padding: 24px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.grid.five .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
